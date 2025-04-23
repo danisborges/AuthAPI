@@ -1,4 +1,4 @@
-package application.Service;
+package application.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import application.model.Usuario;
-import application.Repository.UsuarioRepository;
+import application.repository.UsuarioRepository;
 
 @Service
 public class AppUserDataService implements UserDetailsService {
